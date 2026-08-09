@@ -1,0 +1,24 @@
+{
+  "name": "recallfox-media",
+  "version": "0.1.0",
+  "description": "Local image upload bridge for RecallFox MCP clients",
+  "homepage": "https://github.com/Recallfox/recallfox-media",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Recallfox/recallfox-media.git"
+  },
+  "type": "module",
+  "bin": {
+    "recallfox-media": "./bin/recallfox-media.mjs"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
